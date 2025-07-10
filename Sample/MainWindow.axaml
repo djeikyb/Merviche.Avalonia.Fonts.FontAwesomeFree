@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="250" d:DesignHeight="100"
+        Height="100" Width="250"
+        x:Class="Sample.MainWindow"
+        FontSize="48"
+        Title="Sample">
+    <Window.Styles>
+        <Style Selector="TextBlock">
+            <Setter Property="Padding" Value="3" />
+        </Style>
+    </Window.Styles>
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="3" Orientation="Horizontal">
+        <TextBlock FontFamily="fonts:far#f"
+                   Text="&#xf2b4;" />
+        <TextBlock FontFamily="fonts:fas#f"
+                   Text="&#xf2b4;" />
+        <TextBlock FontFamily="fonts:fab#f"
+                   Text="&#xf286;" />
+    </StackPanel>
+</Window>

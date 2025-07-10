@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/build/">
+    <File Path="README.md" />
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="Merviche.Avalonia.Fonts.FontAwesomeFree/Merviche.Avalonia.Fonts.FontAwesomeFree.csproj" />
+  <Project Path="Sample/Sample.csproj" />
+</Solution>
